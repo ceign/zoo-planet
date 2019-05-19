@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <!-- Font Awesome  -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="css/main.css">
+      <title>Zoo Planet</title>
+    </head>
+
+    <body id="home" class="scrollspy">
+
+        <!-- Navbar -->
+
+        <div class="navbar-fixed">
+            <nav class="amber accent-3">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#home" class="brand-logo">Zoo Planet</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#buscar">Buscar</a>
+                            </li>
+                            <li>
+                                <a href="#mas-populares">Más Populares</a>
+                            </li>
+                            <li>
+                                <a href="#galeria">Galería</a>
+                            </li>
+                            <li>
+                                <a href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav" id="mobile-nav">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#buscar">Buscar</a>
+                </li>
+                <li>
+                    <a href="#mas-populares">Más Populares</a>
+                </li>
+                <li>
+                    <a href="#galeria">Galería</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+        </ul>
+
+        <!-- Seccion: Slider -->
+
+        <section class="slider">
+                <ul class="slides">
+                        <li>
+                          <img src="img/slider1.jpg"> <!-- random image -->
+                          <div class="caption center-align">
+                            <h2>¡Disfruta de una aventura inolvidable en familia!</h2>
+                            <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, adipisci.</h5>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/slider2.jpg"> <!-- random image -->
+                          <div class="caption left-align">
+                            <h2>Con actividades recreativas al aire libre.</h2>
+                            <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ea!</h5>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/slider3.jpg"> <!-- random image -->
+                          <div class="caption right-align">
+                            <h2>¡Si estás de cumpleaños, te regalamos tu entrada!</h2>
+                            <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur vero optio tempora minus quibusdam provident.</h5>
+                          </div>
+                        </li>
+                </ul>
+        </section>
+
+        <!-- Seccion: Buscar -->
+
+        <section id="buscar" class="section section-buscar amber darken-3 white-text center scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h4>Buscar Animales</h4>
+                        <div class="input-field">
+                            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Alpaca, Babuino, etc...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion: Caja de Iconos -->
+
+        <section class="section section-iconos grey lighten-4 center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card-panel">
+                            <i class="material-icons large orange-text">room</i>
+                            <h5>Visítanos!</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laudantium?</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                            <div class="card-panel">
+                                <i class="material-icons large orange-text">add_a_photo</i>
+                                <h5>Fotografíate</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laudantium?</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                                <div class="card-panel">
+                                    <i class="material-icons large orange-text">local_dining</i>
+                                    <h5>Zona Picnic</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laudantium?</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion: Mas Populares -->
+
+        <section id="mas-populares" class="section section-populares scrollspy">
+            <div class="container">
+                <div class="row">
+                    <h4 class="center">
+                        <span class="amber-text text-darken">Animales</span>
+                        Populares
+                    </h4><br><hr>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/popular1.jpg" alt="">
+                                <span class="card-title">Tigre Asiatico</span>
+                            </div>
+                            <div class="card-content">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minima facilis molestias doloribus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/popular2.jpg" alt="">
+                                <span class="card-title">Mono Precioso</span>
+                            </div>
+                            <div class="card-content">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minima facilis molestias doloribus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/popular3.jpg" alt="">
+                                <span class="card-title">Cobra Vegana</span>
+                            </div>
+                            <div class="card-content">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minima facilis molestias doloribus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion: Redes -->
+
+        <section class="section section-redes amber darken-3 white-text center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h4>Zoo Planet</h4>
+                        <p>Siguenos en nuestras redes sociales para mantenerte informado!</p>
+                        <a href="#" class="white-text">
+                            <i class="fab fa-facebook fa-4x" title="Facebook"></i>
+                        </a>
+                        <a href="#" class="white-text">
+                            <i class="fab fa-twitter fa-4x" title="Twitter"></i>
+                        </a>
+                        <a href="#" class="white-text">
+                            <i class="fab fa-pinterest fa-4x" title="Pinterest"></i>
+                        </a>
+                        <a href="#" class="white-text">
+                            <i class="fab fa-instagram fa-4x" title="Instagram"></i>
+                        </a>
+                        <a href="#" class="white-text">
+                            <i class="fab fa-youtube fa-4x" title="Youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion: Galeria -->
+
+        <section id="galeria" class="section section-galeria scrollspy">
+            <div class="container">
+                <h4 class="center">
+                    <span class="amber-text">Galería de </span> Imágenes
+                </h4><br><hr>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?animals" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?lion" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?horse" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?monkey" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?spider" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?snake" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?elephant" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?giraffe" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?deer" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?fox" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?panda" alt="" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?eagle" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <br>
+                <ul class="pagination center">
+                        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                        <li class="active yellow"><a href="#!">1</a></li>
+                        <li class="waves-effect"><a href="#!">2</a></li>
+                        <li class="waves-effect"><a href="#!">3</a></li>
+                        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+                <br><hr>
+            </div>         
+        </section>
+        
+
+        <!-- Seccion: Contacto -->
+
+        <section id="contacto" class="section section-contacto scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card-panel amber darken-3 white-text center">
+                            <i class="material-icons">email</i>
+                            <h5>Contáctanos para más información.</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloribus, quae deserunt quia illum commodi hic est rem aspernatur ipsa delectus. Repellat quibusdam cumque laborum harum odio, voluptatibus ea facere?</p>
+                        </div>
+                        <ul class="collection with-header">
+                            <li class="collection-header">
+                                <h4 class="center">Encuentranos aquí</h4>
+                            </li>
+                            <li class="collection-item">Zoo Planet, Zona Centro.</li>
+                            <li class="collection-item">La Moneda 321</li>
+                            <li class="collection-item">Santiago #123, Chile</li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card-panel grey lighten-3">
+                            <h5>Porfavor, rellena el siguiente formulario</h5>
+                            <div class="input-field">
+                                <input type="text" name="nombre" placeholder="Tu nombre">
+                            </div>
+                            <div class="input-field">
+                                <input type="email" class="validate" name="nombre" placeholder="Tu correo">
+                                <span class="helper-text" data-error="correo no válido" data-success="correo válido"></span>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" name="nombre" placeholder="Tu número">
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" placeholder="Tu mensaje"></textarea>
+                            </div>
+                            <input type="submit" value="Enviar" class="btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="section yellow darken-4 white-text center">
+           <p class="flow-text">Planet Zoo &copy; 2018</p>
+           <p class="h6">Derechos reservados.</p> 
+        </footer>
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        
+      <script>
+
+         //Sidenav
+         const sideNav = document.querySelector('.sidenav');
+         M.Sidenav.init(sideNav, {});
+
+         //Slider
+         const slider = document.querySelector('.slider');
+         M.Slider.init(slider, {
+             indicators: false,
+             height: 580,
+             transition: 600,
+             interval: 4000
+         });
+
+        //  Autocompletado Buscar
+        const ac = document.querySelector('.autocomplete');
+        M.Autocomplete.init(ac, {
+            data:{
+                "Avestruz": null,
+                "Alpaca": null,
+                "Babuino": null,
+                "Burro": null,
+                "Camello": null,
+                "León": null,
+                "Jirafa": null,
+                "Tigre Blanco": null,
+            }
+        });
+
+        //Material Boxed
+        const mb = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(mb, {});
+
+        //Scrollspy
+        const ss = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(ss, {});
+
+      </script>
+    </body>
+  </html>
